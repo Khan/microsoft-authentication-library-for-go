@@ -27,6 +27,7 @@ type IDToken struct {
 	FamilyName        string `json:"family_name,omitempty"`
 	MiddleName        string `json:"middle_name,omitempty"`
 	Name              string `json:"name,omitempty"`
+	Nonce             string `json:"nonce,omitempty"`
 	Oid               string `json:"oid,omitempty"`
 	TenantID          string `json:"tid,omitempty"`
 	Subject           string `json:"sub,omitempty"`
